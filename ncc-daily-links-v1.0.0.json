@@ -1,0 +1,1382 @@
+{
+  "schema": 1,
+  "version": "1.0.0",
+  "nccVersion": "4.3.6",
+  "moduleId": "dailyLinks",
+  "maxQuickGroupLinks": 20,
+  "categoryOrder": [
+    "Freebies",
+    "Scratchcards",
+    "Popular Games",
+    "Some NP Required",
+    "Quests",
+    "Other Places",
+    "Wheels",
+    "Events",
+    "At Jellyneo",
+    "Favoritos",
+    "Outros"
+  ],
+  "links": [
+    {
+      "id": "freebies-anchor-management",
+      "category": "Freebies",
+      "name": "Anchor Management",
+      "url": "https://www.neopets.com/pirates/anchormanagement.phtml",
+      "icon": "https://images.neopets.com/items/fur_pirate_anchor.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 0
+    },
+    {
+      "id": "freebies-apple-bobbing",
+      "category": "Freebies",
+      "name": "Apple Bobbing",
+      "url": "https://www.neopets.com/halloween/applebobbing.phtml",
+      "icon": "https://images.neopets.com/items/spf_slimy_apple.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "freebies-bank-interest",
+      "category": "Freebies",
+      "name": "Bank Interest",
+      "url": "https://www.neopets.com/bank.phtml",
+      "icon": "https://images.neopets.com/items/ltoo_scorch_bank.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 2
+    },
+    {
+      "id": "freebies-coltzan-s-shrine",
+      "category": "Freebies",
+      "name": "Coltzan's Shrine",
+      "url": "https://www.neopets.com/desert/shrine.phtml",
+      "icon": "https://images.neopets.com/items/bd_desert_deathmask.gif",
+      "freq": "Once every 13 hours",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "freebies-council-chamber",
+      "category": "Freebies",
+      "name": "Council Chamber",
+      "url": "https://www.neopets.com/altador/council.phtml",
+      "icon": "https://images.neopets.com/items/toy_kingaltador_figure.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "freebies-deserted-tomb",
+      "category": "Freebies",
+      "name": "Deserted Tomb",
+      "url": "https://www.neopets.com/worlds/geraptiku/tomb.phtml",
+      "icon": "https://images.neopets.com/items/bd_ger_goldtalisman.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "freebies-forgotten-shore",
+      "category": "Freebies",
+      "name": "Forgotten Shore",
+      "url": "https://www.neopets.com/pirates/forgottenshore.phtml",
+      "icon": "https://images.neopets.com/items/bg_forgotten_shore.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "freebies-fruit-machine",
+      "category": "Freebies",
+      "name": "Fruit Machine",
+      "url": "https://www.neopets.com/desert/fruitmachine.phtml",
+      "icon": "https://images.neopets.com/items/food_desert3.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "freebies-giant-jelly",
+      "category": "Freebies",
+      "name": "Giant Jelly",
+      "url": "https://www.neopets.com/jelly/jelly.phtml",
+      "icon": "https://images.neopets.com/items/jel_cornupepper_whole.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "freebies-giant-omelette",
+      "category": "Freebies",
+      "name": "Giant Omelette",
+      "url": "https://www.neopets.com/prehistoric/omelette.phtml",
+      "icon": "https://images.neopets.com/items/om_sausage_pepperoni1.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 9
+    },
+    {
+      "id": "freebies-grave-danger",
+      "category": "Freebies",
+      "name": "Grave Danger",
+      "url": "https://www.neopets.com/halloween/gravedanger/",
+      "icon": "https://images.neopets.com/items/boo_zombiehandbook.gif",
+      "freq": "Once every 4 to 10 hours",
+      "visible": true,
+      "order": 10
+    },
+    {
+      "id": "freebies-grumpy-old-king",
+      "category": "Freebies",
+      "name": "Grumpy Old King",
+      "url": "https://www.neopets.com/medieval/grumpyking.phtml",
+      "icon": "https://images.neopets.com/items/toy_plushie_skarl.gif",
+      "freq": "Twice a day",
+      "visible": true,
+      "order": 11
+    },
+    {
+      "id": "freebies-haunted-woods-hunt",
+      "category": "Freebies",
+      "name": "Haunted Woods Hunt",
+      "url": "https://www.neopets.com/halloween/haunted_woods_hunt.phtml",
+      "icon": "https://images.neopets.com/items/spookyfoo_putridpumpkin.gif",
+      "freq": "Up to twice per day",
+      "visible": true,
+      "order": 12
+    },
+    {
+      "id": "freebies-healing-springs",
+      "category": "Freebies",
+      "name": "Healing Springs",
+      "url": "https://www.neopets.com/faerieland/springs.phtml",
+      "icon": "https://images.neopets.com/items/mag_healing_striped.gif",
+      "freq": "Once every 30 minutes",
+      "visible": true,
+      "order": 13
+    },
+    {
+      "id": "freebies-lost-in-the-dark",
+      "category": "Freebies",
+      "name": "Lost in the Dark",
+      "url": "https://www.neopets.com/games/lostinthedark/index.phtml",
+      "icon": "https://images.neopets.com/items/gwl_empty_lantern.gif",
+      "freq": "Up to twice per day",
+      "visible": true,
+      "order": 14
+    },
+    {
+      "id": "freebies-monthly-freebies",
+      "category": "Freebies",
+      "name": "Monthly Freebies",
+      "url": "https://www.neopets.com/freebies/",
+      "icon": "https://images.neopets.com/items/fur_y7_calendar.gif",
+      "freq": "Once a month",
+      "visible": true,
+      "order": 15
+    },
+    {
+      "id": "freebies-qasalan-expellibox",
+      "category": "Freebies",
+      "name": "Qasalan Expellibox",
+      "url": "http://ncmall.neopets.com/mall/shop.phtml?page=giveaway",
+      "icon": "https://images.neopets.com/items/bat_desert_scarab.gif",
+      "freq": "Once every 7 hours 7 minutes",
+      "visible": true,
+      "order": 16
+    },
+    {
+      "id": "freebies-rich-slorg-shop-of-offers",
+      "category": "Freebies",
+      "name": "Rich Slorg (Shop of Offers)",
+      "url": "https://www.neopets.com/shop_of_offers.phtml?slorg_payout=yes",
+      "icon": "https://images.neopets.com/items/mall_roamingwindslorg.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 17
+    },
+    {
+      "id": "freebies-symol-hole",
+      "category": "Freebies",
+      "name": "Symol Hole",
+      "url": "https://www.neopets.com/medieval/symolhole.phtml",
+      "icon": "https://images.neopets.com/items/symol_brown.gif",
+      "freq": "4-minute hourly window",
+      "visible": true,
+      "order": 18
+    },
+    {
+      "id": "freebies-the-discarded-magical-blue-grundo-plushie-of-prosperity",
+      "category": "Freebies",
+      "name": "The Discarded Magical Blue Grundo Plushie of Prosperity",
+      "url": "https://www.neopets.com/faerieland/tdmbgpop.phtml",
+      "icon": "https://images.neopets.com/items/plu_TDMBGPOP_replica.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 19
+    },
+    {
+      "id": "freebies-tombola",
+      "category": "Freebies",
+      "name": "Tombola",
+      "url": "https://www.neopets.com/island/tombola.phtml",
+      "icon": "https://images.neopets.com/items/toy_squeezy_tombola.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 20
+    },
+    {
+      "id": "freebies-trudy-s-surprise",
+      "category": "Freebies",
+      "name": "Trudy's Surprise",
+      "url": "https://www.neopets.com/trudys_surprise.phtml",
+      "icon": "https://images.neopets.com/items/boo_defender_mynci.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 21
+    },
+    {
+      "id": "freebies-wise-old-king",
+      "category": "Freebies",
+      "name": "Wise Old King",
+      "url": "https://www.neopets.com/medieval/wiseking.phtml",
+      "icon": "https://images.neopets.com/items/usuki_hagan.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 22
+    },
+    {
+      "id": "freebies-ye-olde-fishing-vortex",
+      "category": "Freebies",
+      "name": "Ye Olde Fishing Vortex",
+      "url": "https://www.neopets.com/water/fishing.phtml",
+      "icon": "https://images.neopets.com/items/vor_evilcarp.gif",
+      "freq": "Random",
+      "visible": true,
+      "order": 23
+    },
+    {
+      "id": "freebies-kiko-pop",
+      "category": "Freebies",
+      "name": "Kiko Pop",
+      "url": "https://www.neopets.com/worlds/kiko/kpop/",
+      "icon": "https://images.neopets.com/items/foo_kiko_carmelpopcorn.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 24
+    },
+    {
+      "id": "freebies-advent-calendar",
+      "category": "Freebies",
+      "name": "Advent Calendar",
+      "url": "https://www.neopets.com/winter/adventcalendar.phtml",
+      "icon": "https://images.neopets.com/items/fur_mistletoe_wreath.gif",
+      "freq": "Once a day in December",
+      "visible": true,
+      "order": 25
+    },
+    {
+      "id": "freebies-daily-ad-reward",
+      "category": "Freebies",
+      "name": "Daily Ad Reward",
+      "url": "https://www.neopets.com/home/",
+      "icon": "https://images.neopets.com/themes/h5/basic/images/watchadreward-icon.png",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 26
+    },
+    {
+      "id": "freebies-daily-puzzle",
+      "category": "Freebies",
+      "name": "Daily Puzzle",
+      "url": "https://www.neopets.com/community/",
+      "icon": "https://images.neopets.com/events/500neopoints.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 27
+    },
+    {
+      "id": "freebies-dark-cave",
+      "category": "Freebies",
+      "name": "Dark Cave",
+      "url": "https://www.neopets.com/magma/darkcave.phtml",
+      "icon": "https://images.neopets.com/items/mmat_moltite.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 28
+    },
+    {
+      "id": "freebies-deadly-dice",
+      "category": "Freebies",
+      "name": "Deadly Dice",
+      "url": "https://www.neopets.com/worlds/deadlydice.phtml",
+      "icon": "https://images.neopets.com/items/bd_vonroo_dice.gif",
+      "freq": "12:00am-1:00am NST",
+      "visible": true,
+      "order": 29
+    },
+    {
+      "id": "freebies-faerie-crossword",
+      "category": "Freebies",
+      "name": "Faerie Crossword",
+      "url": "https://www.neopets.com/games/crossword/index.phtml",
+      "icon": "https://images.neopets.com/items/fbo_library_tales.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 30
+    },
+    {
+      "id": "freebies-guess-the-weight-of-the-marrow",
+      "category": "Freebies",
+      "name": "Guess the Weight of the Marrow",
+      "url": "https://www.neopets.com/medieval/guessmarrow.phtml",
+      "icon": "https://images.neopets.com/items/marrow_veg.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 31
+    },
+    {
+      "id": "freebies-lunar-temple",
+      "category": "Freebies",
+      "name": "Lunar Temple",
+      "url": "https://www.neopets.com/shenkuu/lunar/",
+      "icon": "https://images.neopets.com/items/fur_lunar_chart.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 32
+    },
+    {
+      "id": "freebies-meteor",
+      "category": "Freebies",
+      "name": "Meteor",
+      "url": "https://www.neopets.com/moon/meteor.phtml",
+      "icon": "https://images.neopets.com/items/bd_meteor_rock.gif",
+      "freq": "Once every hour, one prize a day",
+      "visible": true,
+      "order": 33
+    },
+    {
+      "id": "freebies-moltara-quarry",
+      "category": "Freebies",
+      "name": "Moltara Quarry",
+      "url": "https://www.neopets.com/magma/quarry.phtml",
+      "icon": "https://images.neopets.com/items/mmat_obsidian.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 34
+    },
+    {
+      "id": "freebies-money-tree",
+      "category": "Freebies",
+      "name": "Money Tree",
+      "url": "https://www.neopets.com/donations.phtml",
+      "icon": "https://images.neopets.com/items/mini_moneytree.gif",
+      "freq": "Up to 10 items a day",
+      "visible": true,
+      "order": 35
+    },
+    {
+      "id": "freebies-mysterious-negg-cave",
+      "category": "Freebies",
+      "name": "Mysterious Negg Cave",
+      "url": "https://www.neopets.com/shenkuu/neggcave/",
+      "icon": "https://images.neopets.com/items/gif_fony14_fg_darkmagic.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 36
+    },
+    {
+      "id": "freebies-rubbish-dump",
+      "category": "Freebies",
+      "name": "Rubbish Dump",
+      "url": "https://www.neopets.com/medieval/rubbishdump.phtml",
+      "icon": "https://images.neopets.com/items/med_zeenanapeel.gif",
+      "freq": "Up to 10 items a day",
+      "visible": true,
+      "order": 37
+    },
+    {
+      "id": "freebies-second-hand-shoppe",
+      "category": "Freebies",
+      "name": "Second-Hand Shoppe",
+      "url": "https://www.neopets.com/thriftshoppe/index.phtml",
+      "icon": "https://images.neopets.com/items/clo_zombie_buzz_shirt.gif",
+      "freq": "Up to 10 items a day",
+      "visible": true,
+      "order": 38
+    },
+    {
+      "id": "freebies-soup-kitchen",
+      "category": "Freebies",
+      "name": "Soup Kitchen",
+      "url": "https://www.neopets.com/soupkitchen.phtml",
+      "icon": "https://images.neopets.com/items/bd_soupfaerie_soup.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 39
+    },
+    {
+      "id": "freebies-tarla-s-non-toolbar-treasures",
+      "category": "Freebies",
+      "name": "Tarla's Non-Toolbar Treasures",
+      "url": "https://www.neopets.com/freebies/tarlastoolbar.phtml",
+      "icon": "https://images.neopets.com/items/plu_tarla.gif",
+      "freq": "Random days and times",
+      "visible": true,
+      "order": 40
+    },
+    {
+      "id": "scratchcards-ice-caves-kiosk",
+      "category": "Scratchcards",
+      "name": "Ice Caves Kiosk",
+      "url": "https://www.neopets.com/winter/kiosk.phtml",
+      "icon": "https://images.neopets.com/items/toy_kiosk_plushie.gif",
+      "freq": "Once every six hours",
+      "visible": true,
+      "order": 41
+    },
+    {
+      "id": "scratchcards-desert-kiosk",
+      "category": "Scratchcards",
+      "name": "Desert Kiosk",
+      "url": "https://www.neopets.com/desert/sc/kiosk.phtml",
+      "icon": "https://images.neopets.com/items/scr_coltzans_cash.gif",
+      "freq": "Once every four hours",
+      "visible": true,
+      "order": 42
+    },
+    {
+      "id": "scratchcards-haunted-fairgrounds-kiosk",
+      "category": "Scratchcards",
+      "name": "Haunted Fairgrounds Kiosk",
+      "url": "https://www.neopets.com/halloween/scratch.phtml",
+      "icon": "https://images.neopets.com/items/bd_sssidney_tickets.gif",
+      "freq": "Once every two hours",
+      "visible": true,
+      "order": 43
+    },
+    {
+      "id": "popular-games-brucey-b-slots",
+      "category": "Popular Games",
+      "name": "Brucey B Slots",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=1121",
+      "icon": "https://images.neopets.com/items/plu_advc2013_bruceyb.gif",
+      "freq": "250 times a day",
+      "visible": true,
+      "order": 44
+    },
+    {
+      "id": "popular-games-cosy-campfire-collection",
+      "category": "Popular Games",
+      "name": "Cosy Campfire Collection",
+      "url": "https://www.neopets.com/games/cosycampfire/",
+      "icon": "https://images.neopets.com/items/spf_angry_marshmallows.gif",
+      "freq": "Up to twice per day",
+      "visible": true,
+      "order": 45
+    },
+    {
+      "id": "popular-games-dr-landelbrot-s-voidworks",
+      "category": "Popular Games",
+      "name": "Dr. Landelbrot's Voidworks",
+      "url": "https://www.neopets.com/games/voidworks/",
+      "icon": "https://images.neopets.com/items/c8m85che0f.gif",
+      "freq": "Once per day",
+      "visible": true,
+      "order": 46
+    },
+    {
+      "id": "popular-games-dice-a-roo",
+      "category": "Popular Games",
+      "name": "Dice-a-Roo",
+      "url": "https://www.neopets.com/games/dicearoo.phtml",
+      "icon": "https://images.neopets.com/items/fur_dice_gold.gif",
+      "freq": "Daily until pet is bored",
+      "visible": true,
+      "order": 47
+    },
+    {
+      "id": "popular-games-50k-a-day",
+      "category": "Popular Games",
+      "name": "50k A Day",
+      "url": "https://www.jellyneo.net/?go=50k_a_day",
+      "icon": "https://images.neopets.com/items/mall_bg_gamesmaster.gif",
+      "freq": "Varies by game",
+      "visible": true,
+      "order": 48
+    },
+    {
+      "id": "popular-games-black-pawkeet-slots",
+      "category": "Popular Games",
+      "name": "Black Pawkeet Slots",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=1099",
+      "icon": "https://images.neopets.com/items/krawk_pirate.gif",
+      "freq": "250 times a day",
+      "visible": true,
+      "order": 49
+    },
+    {
+      "id": "popular-games-destruct-o-match-iii",
+      "category": "Popular Games",
+      "name": "Destruct O Match III",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=999",
+      "icon": "https://images.neopets.com/items/foo_destruct_munch.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 50
+    },
+    {
+      "id": "popular-games-doglefetch",
+      "category": "Popular Games",
+      "name": "Doglefetch",
+      "url": "https://www.neopets.com/games/doglefetch/",
+      "icon": "https://images.neopets.com/items/r5n36yd833.gif",
+      "freq": "Up to twice per day",
+      "visible": true,
+      "order": 51
+    },
+    {
+      "id": "popular-games-dubloon-disaster",
+      "category": "Popular Games",
+      "name": "Dubloon Disaster",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=772",
+      "icon": "https://images.neopets.com/items/gif_dubdis_mine.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 52
+    },
+    {
+      "id": "popular-games-faerie-bubbles",
+      "category": "Popular Games",
+      "name": "Faerie Bubbles",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=358",
+      "icon": "https://images.neopets.com/items/clo_faeriebub_brac.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 53
+    },
+    {
+      "id": "popular-games-fashion-fever",
+      "category": "Popular Games",
+      "name": "Fashion Fever",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=805",
+      "icon": "https://images.neopets.com/items/clo_ff_shirt.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 54
+    },
+    {
+      "id": "popular-games-hasee-bounce",
+      "category": "Popular Games",
+      "name": "Hasee Bounce",
+      "url": "https://www.neopets.com/games/h5game.phtml?game_id=1393",
+      "icon": "https://images.neopets.com/items/toy_haseebounce_set.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 55
+    },
+    {
+      "id": "popular-games-kass-basher",
+      "category": "Popular Games",
+      "name": "Kass Basher",
+      "url": "https://www.neopets.com/games/h5game.phtml?game_id=1310",
+      "icon": "https://images.neopets.com/items/toy_whackakass_home.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 56
+    },
+    {
+      "id": "popular-games-meerca-chase-ii",
+      "category": "Popular Games",
+      "name": "Meerca Chase II",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=500",
+      "icon": "https://images.neopets.com/items/toy_meercachase_pullcart.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 57
+    },
+    {
+      "id": "popular-games-potato-counter",
+      "category": "Popular Games",
+      "name": "Potato Counter",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=158",
+      "icon": "https://images.neopets.com/items/food_potatoe.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 58
+    },
+    {
+      "id": "popular-games-puzzles-of-the-past",
+      "category": "Popular Games",
+      "name": "Puzzles of the Past",
+      "url": "https://www.neopets.com/games/puzzlesofthepast/",
+      "icon": "https://images.neopets.com/items/toy_fon_jigsawnegg.gif",
+      "freq": "Twice per day",
+      "visible": true,
+      "order": 59
+    },
+    {
+      "id": "popular-games-splat-a-sloth",
+      "category": "Popular Games",
+      "name": "Splat-A-Sloth",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=81",
+      "icon": "https://images.neopets.com/items/stamp_spa_splat.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 60
+    },
+    {
+      "id": "popular-games-turmac-roll",
+      "category": "Popular Games",
+      "name": "Turmac Roll",
+      "url": "https://www.neopets.com/games/game.phtml?game_id=1392",
+      "icon": "https://images.neopets.com/items/petpet_turmac.gif",
+      "freq": "Three plays a day",
+      "visible": true,
+      "order": 61
+    },
+    {
+      "id": "some-np-required-buried-treasure",
+      "category": "Some NP Required",
+      "name": "Buried Treasure",
+      "url": "https://www.neopets.com/pirates/buriedtreasure/index.phtml",
+      "icon": "https://images.neopets.com/items/mall_jjpb_treasurechesttrinket.gif",
+      "freq": "Once every three hours",
+      "visible": true,
+      "order": 62
+    },
+    {
+      "id": "some-np-required-cheeseroller",
+      "category": "Some NP Required",
+      "name": "Cheeseroller",
+      "url": "https://www.neopets.com/medieval/cheeseroller.phtml",
+      "icon": "https://images.neopets.com/items/med_cheese_0.gif",
+      "freq": "Three times a day",
+      "visible": true,
+      "order": 63
+    },
+    {
+      "id": "some-np-required-employment-agency",
+      "category": "Some NP Required",
+      "name": "Employment Agency",
+      "url": "https://www.neopets.com/faerieland/employ/employment.phtml",
+      "icon": "https://images.neopets.com/items/purple_ticket.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 64
+    },
+    {
+      "id": "some-np-required-faerie-caverns",
+      "category": "Some NP Required",
+      "name": "Faerie Caverns",
+      "url": "https://www.neopets.com/faerieland/caverns/index.phtml",
+      "icon": "https://images.neopets.com/items/bg_faerie_caverns.gif",
+      "freq": "Up to twice per day",
+      "visible": true,
+      "order": 65
+    },
+    {
+      "id": "some-np-required-igloo-garage-sale",
+      "category": "Some NP Required",
+      "name": "Igloo Garage Sale",
+      "url": "https://www.neopets.com/winter/igloo.phtml",
+      "icon": "https://images.neopets.com/items/gar_igloo.gif",
+      "freq": "10 items per day",
+      "visible": true,
+      "order": 66
+    },
+    {
+      "id": "some-np-required-neolodge",
+      "category": "Some NP Required",
+      "name": "Neolodge",
+      "url": "https://www.neopets.com/neolodge.phtml",
+      "icon": "https://images.neopets.com/items/fur_fyorabed.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 67
+    },
+    {
+      "id": "some-np-required-neopian-lottery",
+      "category": "Some NP Required",
+      "name": "Neopian Lottery",
+      "url": "https://www.neopets.com/games/lottery.phtml",
+      "icon": "https://images.neopets.com/games/clicktoplay/icon_58.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 68
+    },
+    {
+      "id": "some-np-required-stock-market-portfolio",
+      "category": "Some NP Required",
+      "name": "Stock Market - Portfolio",
+      "url": "https://www.neopets.com/stockmarket.phtml?type=portfolio",
+      "icon": "https://images.neopets.com/games/game_stocks.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 69
+    },
+    {
+      "id": "some-np-required-test-your-strength",
+      "category": "Some NP Required",
+      "name": "Test Your Strength",
+      "url": "https://www.neopets.com/halloween/strtest/index.phtml",
+      "icon": "https://images.neopets.com/items/gar_testyourstrength.gif",
+      "freq": "Once every six hours",
+      "visible": true,
+      "order": 70
+    },
+    {
+      "id": "some-np-required-wishing-well",
+      "category": "Some NP Required",
+      "name": "Wishing Well",
+      "url": "https://www.neopets.com/wishing.phtml",
+      "icon": "https://images.neopets.com/items/stamp_neo_well.gif",
+      "freq": "Seven wishes per 12-hour window",
+      "visible": true,
+      "order": 71
+    },
+    {
+      "id": "some-np-required-dr-sloth-auctions",
+      "category": "Some NP Required",
+      "name": "Dr. Sloth Auctions",
+      "url": "https://www.neopets.com/genie.phtml?type=find_user&auction_username=dr_sloth",
+      "icon": "https://images.neopets.com/new_shopkeepers/t_2028.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 72
+    },
+    {
+      "id": "some-np-required-coconut-special",
+      "category": "Some NP Required",
+      "name": "Coconut Special",
+      "url": "https://www.neopets.com/halloween/process_cocoshy.phtml?coconut=1",
+      "icon": "https://images.neopets.com/items/spo_coconut_15.gif",
+      "freq": "Daily 20x",
+      "visible": true,
+      "order": 73
+    },
+    {
+      "id": "some-np-required-almost-abandoned-attic",
+      "category": "Some NP Required",
+      "name": "Almost Abandoned Attic",
+      "url": "https://www.neopets.com/halloween/garage.phtml",
+      "icon": "https://images.neopets.com/items/fur_cobwebs.gif",
+      "freq": "5 items per day",
+      "visible": true,
+      "order": 74
+    },
+    {
+      "id": "some-np-required-bagatelle",
+      "category": "Some NP Required",
+      "name": "Bagatelle",
+      "url": "https://www.neopets.com/halloween/bagatelle.phtml",
+      "icon": "https://images.neopets.com/items/gar_bagatelle.gif",
+      "freq": "20 times a day",
+      "visible": true,
+      "order": 75
+    },
+    {
+      "id": "some-np-required-coconut-shy",
+      "category": "Some NP Required",
+      "name": "Coconut Shy",
+      "url": "https://www.neopets.com/halloween/coconutshy.phtml",
+      "icon": "https://images.neopets.com/items/spo_coconut_15.gif",
+      "freq": "20 times a day",
+      "visible": true,
+      "order": 76
+    },
+    {
+      "id": "some-np-required-cork-gun-gallery",
+      "category": "Some NP Required",
+      "name": "Cork Gun Gallery",
+      "url": "https://www.neopets.com/halloween/corkgun.phtml",
+      "icon": "https://images.neopets.com/items/can_box_fruitbeans.gif",
+      "freq": "20 times a day",
+      "visible": true,
+      "order": 77
+    },
+    {
+      "id": "some-np-required-food-club",
+      "category": "Some NP Required",
+      "name": "Food Club",
+      "url": "https://www.neopets.com/pirates/foodclub.phtml?type=bet",
+      "icon": "https://images.neopets.com/games/pages/trophies/88_1.png",
+      "freq": "10 bets per daily round",
+      "visible": true,
+      "order": 78
+    },
+    {
+      "id": "some-np-required-hidden-tower",
+      "category": "Some NP Required",
+      "name": "Hidden Tower",
+      "url": "https://www.neopets.com/faerieland/hiddentower938.phtml",
+      "icon": "https://images.neopets.com/items/fyora_supreme_doll.gif",
+      "freq": "One item every 24 hours",
+      "visible": true,
+      "order": 79
+    },
+    {
+      "id": "some-np-required-lever-of-doom",
+      "category": "Some NP Required",
+      "name": "Lever of Doom",
+      "url": "https://www.neopets.com/space/strangelever.phtml",
+      "icon": "https://images.neopets.com/items/coi_leverofdoom.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 80
+    },
+    {
+      "id": "some-np-required-pick-your-own",
+      "category": "Some NP Required",
+      "name": "Pick Your Own",
+      "url": "https://www.neopets.com/medieval/pickyourown_index.phtml",
+      "icon": "https://images.neopets.com/items/4clover.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 81
+    },
+    {
+      "id": "some-np-required-poogle-racing",
+      "category": "Some NP Required",
+      "name": "Poogle Racing",
+      "url": "https://www.neopets.com/faerieland/poogleracing.phtml",
+      "icon": "https://images.neopets.com/items/toy_poogle_blue.gif",
+      "freq": "Once every 15 minutes",
+      "visible": true,
+      "order": 82
+    },
+    {
+      "id": "some-np-required-stock-market-bargain-list",
+      "category": "Some NP Required",
+      "name": "Stock Market - Bargain List",
+      "url": "https://www.neopets.com/stockmarket.phtml?type=list&search=%&bargain=true",
+      "icon": "https://images.neopets.com/games/game_stocks.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 83
+    },
+    {
+      "id": "some-np-required-tarla-s-shop-of-mystery",
+      "category": "Some NP Required",
+      "name": "Tarla's Shop of Mystery",
+      "url": "https://www.neopets.com/winter/shopofmystery.phtml",
+      "icon": "https://images.neopets.com/items/toy_tarla_squirty.gif",
+      "freq": "Restock times vary",
+      "visible": true,
+      "order": 84
+    },
+    {
+      "id": "some-np-required-turdle-racing",
+      "category": "Some NP Required",
+      "name": "Turdle Racing",
+      "url": "https://www.neopets.com/medieval/turdleracing.phtml",
+      "icon": "https://images.neopets.com/items/pet_turdle.gif",
+      "freq": "Three times a day",
+      "visible": true,
+      "order": 85
+    },
+    {
+      "id": "some-np-required-tyrannian-ticket-booth",
+      "category": "Some NP Required",
+      "name": "Tyrannian Ticket Booth",
+      "url": "https://www.neopets.com/prehistoric/ticketbooth.phtml",
+      "icon": "https://images.neopets.com/items/ticket_mmband.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 86
+    },
+    {
+      "id": "quests-brain-tree-quests",
+      "category": "Quests",
+      "name": "Brain Tree Quests",
+      "url": "https://www.neopets.com/halloween/braintree.phtml",
+      "icon": "https://images.neopets.com/items/toy_brain1.gif",
+      "freq": "Once every 24 hours",
+      "visible": true,
+      "order": 87
+    },
+    {
+      "id": "quests-faerie-quests",
+      "category": "Quests",
+      "name": "Faerie Quests",
+      "url": "https://www.neopets.com/quests.phtml",
+      "icon": "https://images.neopets.com/items/toy_faerie_princess.gif",
+      "freq": "Randomly given out",
+      "visible": true,
+      "order": 88
+    },
+    {
+      "id": "quests-illusen-s-glade",
+      "category": "Quests",
+      "name": "Illusen's Glade",
+      "url": "https://www.neopets.com/medieval/earthfaerie.phtml",
+      "icon": "https://images.neopets.com/items/toy_faerie_illusen.gif",
+      "freq": "Once every 12 hours",
+      "visible": true,
+      "order": 89
+    },
+    {
+      "id": "quests-jhudora-s-bluff",
+      "category": "Quests",
+      "name": "Jhudora's Bluff",
+      "url": "https://www.neopets.com/faerieland/darkfaerie.phtml",
+      "icon": "https://images.neopets.com/items/toy_faerie_jhudora.gif",
+      "freq": "Once every 12 hours",
+      "visible": true,
+      "order": 90
+    },
+    {
+      "id": "quests-quest-log",
+      "category": "Quests",
+      "name": "Quest Log",
+      "url": "https://www.neopets.com/questlog/",
+      "icon": "https://images.neopets.com/items/toy_hannah_action.gif",
+      "freq": "Daily",
+      "visible": true,
+      "order": 91
+    },
+    {
+      "id": "quests-the-coincidence",
+      "category": "Quests",
+      "name": "The Coincidence",
+      "url": "https://www.neopets.com/space/coincidence.phtml",
+      "icon": "https://images.neopets.com/items/rpp_reu2014_robotassispetpet.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 92
+    },
+    {
+      "id": "quests-tea-time-with-tavi",
+      "category": "Quests",
+      "name": "Tea Time with Tavi",
+      "url": "https://www.neopets.com/games/teatime/",
+      "icon": "https://images.neopets.com/items/plu_tavi.gif",
+      "freq": "5 times a day",
+      "visible": true,
+      "order": 93
+    },
+    {
+      "id": "quests-esophagor-s-quests",
+      "category": "Quests",
+      "name": "Esophagor's Quests",
+      "url": "https://www.neopets.com/halloween/esophagor.phtml",
+      "icon": "https://images.neopets.com/items/mall_miniesophagor.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 94
+    },
+    {
+      "id": "quests-edna-s-quests",
+      "category": "Quests",
+      "name": "Edna's Quests",
+      "url": "https://www.neopets.com/halloween/witchtower.phtml",
+      "icon": "https://images.neopets.com/items/toy_plushie_edna.gif",
+      "freq": "10 times a day",
+      "visible": true,
+      "order": 95
+    },
+    {
+      "id": "quests-kitchen-quests",
+      "category": "Quests",
+      "name": "Kitchen Quests",
+      "url": "https://www.neopets.com/island/kitchen.phtml",
+      "icon": "https://images.neopets.com/items/toy_kitchenquest_flotsam.gif",
+      "freq": "10 times a day",
+      "visible": true,
+      "order": 96
+    },
+    {
+      "id": "quests-taelia-s-quests",
+      "category": "Quests",
+      "name": "Taelia's Quests",
+      "url": "https://www.neopets.com/winter/snowfaerie.phtml",
+      "icon": "https://images.neopets.com/items/toy_faerie_snow.gif",
+      "freq": "10 times a day",
+      "visible": true,
+      "order": 97
+    },
+    {
+      "id": "other-places-battledome",
+      "category": "Other Places",
+      "name": "Battledome",
+      "url": "https://www.neopets.com/dome/",
+      "icon": "https://images.neopets.com/items/bd_spirit_blade.gif",
+      "freq": "Anytime, 15 items per day",
+      "visible": true,
+      "order": 98
+    },
+    {
+      "id": "other-places-lab-ray",
+      "category": "Other Places",
+      "name": "Lab Ray",
+      "url": "https://www.neopets.com/lab.phtml",
+      "icon": "https://images.neopets.com/items/labmap_09.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 99
+    },
+    {
+      "id": "other-places-petpet-lab-ray",
+      "category": "Other Places",
+      "name": "Petpet Lab Ray",
+      "url": "https://www.neopets.com/petpetlab.phtml",
+      "icon": "https://images.neopets.com/items/petpetlab_soot.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 100
+    },
+    {
+      "id": "other-places-snowager",
+      "category": "Other Places",
+      "name": "Snowager",
+      "url": "https://www.neopets.com/winter/snowager.phtml",
+      "icon": "https://images.neopets.com/items/toy_snowager_plushie.gif",
+      "freq": "6-7am, 2-3pm, 10-11pm NST",
+      "visible": true,
+      "order": 101
+    },
+    {
+      "id": "other-places-tyrannian-battleground",
+      "category": "Other Places",
+      "name": "Tyrannian Battleground",
+      "url": "https://www.neopets.com/prehistoric/battleground/",
+      "icon": "https://images.neopets.com/items/bd_tyweof2013_itsashovel.gif",
+      "freq": "Two-week rotation",
+      "visible": true,
+      "order": 102
+    },
+    {
+      "id": "other-places-your-shop-till",
+      "category": "Other Places",
+      "name": "Your Shop Till",
+      "url": "https://www.neopets.com/market.phtml?type=till",
+      "icon": "https://images.neopets.com/items/broken_bag_np.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 103
+    },
+    {
+      "id": "other-places-restock",
+      "category": "Other Places",
+      "name": "RESTOCK",
+      "url": "https://www.jellyneo.net/?go=shopsdirectory",
+      "icon": "https://www.jellyneo.net/assets/imgs/avatars/28.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 104
+    },
+    {
+      "id": "other-places-favourite-games",
+      "category": "Other Places",
+      "name": "Favourite Games",
+      "url": "https://www.neopets.com/games/favourites.phtml",
+      "icon": "https://images.neopets.com/items/boo_dd_ilovegames.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 105
+    },
+    {
+      "id": "other-places-games-room",
+      "category": "Other Places",
+      "name": "Games Room",
+      "url": "https://www.neopets.com/games/",
+      "icon": "https://images.neopets.com/items/mall_bckground_arcade2010gmc.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 106
+    },
+    {
+      "id": "other-places-haiku-generator",
+      "category": "Other Places",
+      "name": "Haiku Generator",
+      "url": "https://www.neopets.com/island/haiku/haiku.phtml",
+      "icon": "https://images.neopets.com/items/toy_plushie_rorru.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 107
+    },
+    {
+      "id": "other-places-island-mystic",
+      "category": "Other Places",
+      "name": "Island Mystic",
+      "url": "https://www.neopets.com/island/mystichut.phtml",
+      "icon": "https://images.neopets.com/items/toy_plushie_mystic.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 108
+    },
+    {
+      "id": "other-places-magma-pool",
+      "category": "Other Places",
+      "name": "Magma Pool",
+      "url": "https://www.neopets.com/magma/pool.phtml",
+      "icon": "https://images.neopets.com/items/bg_magma_pool.gif",
+      "freq": "Once every 8 days",
+      "visible": true,
+      "order": 109
+    },
+    {
+      "id": "other-places-mystery-island-training-school",
+      "category": "Other Places",
+      "name": "Mystery Island Training School",
+      "url": "https://www.neopets.com/island/training.phtml",
+      "icon": "https://images.neopets.com/items/bg_mystery_training.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 110
+    },
+    {
+      "id": "other-places-new-features",
+      "category": "Other Places",
+      "name": "New Features",
+      "url": "https://www.neopets.com/nf.phtml",
+      "icon": "https://images.neopets.com/items/fur_ntpaperrack.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 111
+    },
+    {
+      "id": "other-places-quick-reference",
+      "category": "Other Places",
+      "name": "Quick Reference",
+      "url": "https://www.neopets.com/quickref.phtml",
+      "icon": "https://images.neopets.com/items/tornado_ring.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 112
+    },
+    {
+      "id": "other-places-secret-ninja-training-school",
+      "category": "Other Places",
+      "name": "Secret Ninja Training School",
+      "url": "https://www.neopets.com/island/fight_training.phtml",
+      "icon": "https://images.neopets.com/items/nin_smoke_bomb.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 113
+    },
+    {
+      "id": "other-places-smuggler-s-cove",
+      "category": "Other Places",
+      "name": "Smuggler's Cove",
+      "url": "https://www.neopets.com/pirates/smugglerscove.phtml",
+      "icon": "https://images.neopets.com/items/toy_smugglers_cove.gif",
+      "freq": "Random",
+      "visible": true,
+      "order": 114
+    },
+    {
+      "id": "other-places-swashbuckling-academy",
+      "category": "Other Places",
+      "name": "Swashbuckling Academy",
+      "url": "https://www.neopets.com/pirates/academy.phtml",
+      "icon": "https://images.neopets.com/items/toy_pirate_cutlass.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 115
+    },
+    {
+      "id": "other-places-the-kadoatery",
+      "category": "Other Places",
+      "name": "The Kadoatery",
+      "url": "https://www.neopets.com/games/kadoatery/index.phtml?",
+      "icon": "https://images.neopets.com/items/kadoatie_pink.gif",
+      "freq": "Random",
+      "visible": true,
+      "order": 116
+    },
+    {
+      "id": "other-places-turmaculus",
+      "category": "Other Places",
+      "name": "Turmaculus",
+      "url": "https://www.neopets.com/medieval/turmaculus.phtml",
+      "icon": "https://images.neopets.com/items/toy_turmaculus_figure.gif",
+      "freq": "Once a day, predicted times",
+      "visible": true,
+      "order": 117
+    },
+    {
+      "id": "wheels-wheel-of-excitement",
+      "category": "Wheels",
+      "name": "Wheel of Excitement",
+      "url": "https://www.neopets.com/faerieland/wheel.phtml",
+      "icon": "https://images.neopets.com/items/toy_faerie_light.gif",
+      "freq": "Once every two hours",
+      "visible": true,
+      "order": 118
+    },
+    {
+      "id": "wheels-wheel-of-extravagance",
+      "category": "Wheels",
+      "name": "Wheel of Extravagance",
+      "url": "https://www.neopets.com/desert/extravagance.phtml",
+      "icon": "https://images.neopets.com/items/sta_wheel_of_extravagance.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 119
+    },
+    {
+      "id": "wheels-wheel-of-knowledge",
+      "category": "Wheels",
+      "name": "Wheel of Knowledge",
+      "url": "https://www.neopets.com/medieval/knowledge.phtml",
+      "icon": "https://images.neopets.com/items/toy_bv_wheelofknowledge.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 120
+    },
+    {
+      "id": "wheels-wheel-of-mediocrity",
+      "category": "Wheels",
+      "name": "Wheel of Mediocrity",
+      "url": "https://www.neopets.com/prehistoric/mediocrity.phtml",
+      "icon": "https://images.neopets.com/items/toy_action_plesio.gif",
+      "freq": "Once every 40 minutes",
+      "visible": true,
+      "order": 121
+    },
+    {
+      "id": "wheels-wheel-of-misfortune",
+      "category": "Wheels",
+      "name": "Wheel of Misfortune",
+      "url": "https://www.neopets.com/halloween/wheel/index.phtml",
+      "icon": "https://images.neopets.com/items/gar_wheelmisfortune.gif",
+      "freq": "Once every two hours",
+      "visible": true,
+      "order": 122
+    },
+    {
+      "id": "wheels-wheel-of-monotony",
+      "category": "Wheels",
+      "name": "Wheel of Monotony",
+      "url": "https://www.neopets.com/prehistoric/monotony/monotony.phtml",
+      "icon": "https://images.neopets.com/items/toy_monotony_plushie.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 123
+    },
+    {
+      "id": "wheels-wheel-of-starlight-premium-only",
+      "category": "Wheels",
+      "name": "Wheel of Starlight (Premium Only)",
+      "url": "https://www.neopets.com/premium/wheel.phtml",
+      "icon": "https://images.neopets.com/items/185mjdi5jd.gif",
+      "freq": "Once a day",
+      "visible": true,
+      "order": 124
+    },
+    {
+      "id": "events-altador-cup",
+      "category": "Events",
+      "name": "Altador Cup",
+      "url": "https://www.neopets.com/altador/colosseum/",
+      "icon": "https://images.neopets.com/items/altcp_altador_drinkcup.gif",
+      "freq": "Event",
+      "visible": true,
+      "order": 125
+    },
+    {
+      "id": "events-the-void-within-hub",
+      "category": "Events",
+      "name": "The Void Within Hub",
+      "url": "https://www.neopets.com/tvw/",
+      "icon": "https://images.neopets.com/items/wea_void_scimitar.gif",
+      "freq": "Daily/event",
+      "visible": true,
+      "order": 126
+    },
+    {
+      "id": "events-wheel-of-celebration",
+      "category": "Events",
+      "name": "Wheel of Celebration",
+      "url": "https://www.neopets.com/np26birthday/",
+      "icon": "https://images.neopets.com/items/paintbrush_25anniversary.gif",
+      "freq": "Twice per day",
+      "visible": true,
+      "order": 127
+    },
+    {
+      "id": "events-faerie-festival",
+      "category": "Events",
+      "name": "Faerie Festival",
+      "url": "https://www.neopets.com/faeriefestival/",
+      "icon": "https://images.neopets.com/items/np_mc_ffdonation.gif",
+      "freq": "Daily/event",
+      "visible": true,
+      "order": 128
+    },
+    {
+      "id": "events-festival-of-fears",
+      "category": "Events",
+      "name": "Festival of Fears",
+      "url": "https://www.neopets.com/festivaloffears/",
+      "icon": "https://images.neopets.com/items/plu_reginald.gif",
+      "freq": "Daily/event",
+      "visible": true,
+      "order": 129
+    },
+    {
+      "id": "events-festival-of-neggs",
+      "category": "Events",
+      "name": "Festival of Neggs",
+      "url": "https://www.neopets.com/neggfest/",
+      "icon": "https://images.neopets.com/items/festivalnegg.gif",
+      "freq": "Event",
+      "visible": true,
+      "order": 130
+    },
+    {
+      "id": "events-neopies",
+      "category": "Events",
+      "name": "Neopies",
+      "url": "https://www.neopets.com/neopies/",
+      "icon": "https://images.neopets.com/items/tro_mostmischevious_neopies.gif",
+      "freq": "Event",
+      "visible": true,
+      "order": 131
+    },
+    {
+      "id": "at-jellyneo-void-within-plot-checklist",
+      "category": "At Jellyneo",
+      "name": "Void Within Plot Checklist",
+      "url": "https://www.jellyneo.net/?go=void_within_checklist",
+      "icon": "https://images.neopets.com/items/bottlefaerie_grey.gif",
+      "freq": "Daily",
+      "visible": true,
+      "order": 132
+    },
+    {
+      "id": "at-jellyneo-jordle",
+      "category": "At Jellyneo",
+      "name": "Jordle",
+      "url": "https://www.jellyneo.net/jordle/",
+      "icon": "https://bookofages.jellyneo.net/assets/imgs/characters/sm/1979.gif",
+      "freq": "Once per day",
+      "visible": true,
+      "order": 133
+    },
+    {
+      "id": "at-jellyneo-newest-items",
+      "category": "At Jellyneo",
+      "name": "Newest Items",
+      "url": "https://items.jellyneo.net/search/newest/",
+      "icon": "https://images.neopets.com/items/toy_plushie_negg_fish.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 134
+    },
+    {
+      "id": "at-jellyneo-shops-directory",
+      "category": "At Jellyneo",
+      "name": "Shops Directory",
+      "url": "https://www.jellyneo.net/?go=shopsdirectory",
+      "icon": "https://images.neopets.com/items/plu_blumaroo_gcshop.gif",
+      "freq": "Anytime",
+      "visible": true,
+      "order": 135
+    }
+  ]
+}
