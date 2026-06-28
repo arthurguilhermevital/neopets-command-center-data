@@ -1,0 +1,1015 @@
+{
+  "sourceFile": "NCC_4_6_0_Healing_Springs_Alert_Hotfix_Botoes_Centralizados.user.js",
+  "sourceSha256": "2850440ed17b0de08bbb9aa14075a88f12259aa2ceb8e90ae7060df2f849bf6e",
+  "version": "4.6.0",
+  "architecture": {
+    "schema": 4600,
+    "id": "4.6.0-command-center"
+  },
+  "coreIcons": {
+    "NB_MAIN_ICON_URL": "https://i.imgur.com/Ua9GlHT.png",
+    "NB_PAGE_FAV_FALSE_ICON": "https://images.neopets.com/themes/h5/constellations/images/fav-icon-false.png",
+    "NB_PAGE_FAV_TRUE_ICON": "https://images.neopets.com/themes/h5/constellations/images/fav-icon-true.png",
+    "NB_BUG_REPORT_SHEET_URL": "https://docs.google.com/spreadsheets/d/1HfO3lHATAE79dGbECJPMGr2FhvecS5KaWxZF7Sxh1E8/edit?gid=0#gid=0"
+  },
+  "visualIcons": {
+    "tabDashboard": "https://images.neopets.com/themes/h5/basic/images/guilds-icon.png",
+    "tabAlerts": "https://images.neopets.com/themes/h5/basic/images/dailies-widget/dailieswidget-icon.png",
+    "tabDaily": "https://images.neopets.com/themes/h5/basic/images/scratchcards-icon.png",
+    "tabCommunication": "https://images.neopets.com/themes/h5/basic/images/journal-icon.png",
+    "tabExtras": "https://images.neopets.com/themes/h5/basic/images/v3/inventory-icon.svg",
+    "tabAccount": "https://i.imgur.com/Ua9GlHT.png",
+    "tabTrainingBattle": "https://images.neopets.com/themes/h5/basic/images/battledome-icon.png",
+    "actionSettings": "https://images.neopets.com/themes/h5/basic/images/dailies-widget/dailieswidget-settings.png",
+    "actionTheme": "https://images.neopets.com/themes/h5/basic/images/stylingstudio-icon.png",
+    "actionSource": "https://images.neopets.com/themes/h5/basic/images/redeemcode-icon.png",
+    "actionDiagnostics": "https://i.imgur.com/V1COUuw.png",
+    "actionBug": "https://images.neopets.com/themes/h5/basic/images/tvw-icon.png",
+    "actionClose": "https://images.neopets.com/aota/x-mark.png",
+    "dashboard": "NB_VISUAL_ICONS.tabDashboard",
+    "alerts": "NB_VISUAL_ICONS.tabAlerts",
+    "daily": "NB_VISUAL_ICONS.tabDaily",
+    "communication_group": "NB_VISUAL_ICONS.tabCommunication",
+    "items_shop_group": "NB_VISUAL_ICONS.tabExtras",
+    "account_group": "NB_VISUAL_ICONS.tabAccount",
+    "training_battle_group": "NB_VISUAL_ICONS.tabTrainingBattle",
+    "snowager": "https://www.neopets.com/winter/snowager.phtml",
+    "symol": "https://www.neopets.com/medieval/symolhole.phtml",
+    "symolJellyneo": "https://www.jellyneo.net/?go=symolhole",
+    "igloo": "https://www.neopets.com/winter/igloo.phtml",
+    "blackPawkeet": "https://www.neopets.com/pirates/buriedtreasure/index.phtml",
+    "graveDanger": "'"
+  },
+  "tabIconsById": {
+    "dashboard": "https://images.neopets.com/themes/h5/basic/images/guilds-icon.png",
+    "alerts": "https://images.neopets.com/themes/h5/basic/images/dailies-widget/dailieswidget-icon.png",
+    "daily": "https://images.neopets.com/themes/h5/basic/images/scratchcards-icon.png",
+    "communication_group": "https://images.neopets.com/themes/h5/basic/images/journal-icon.png",
+    "items_shop_group": "https://images.neopets.com/themes/h5/basic/images/v3/inventory-icon.svg",
+    "account_group": "https://i.imgur.com/Ua9GlHT.png",
+    "training_battle_group": "https://images.neopets.com/themes/h5/basic/images/battledome-icon.png",
+    "snowager": "https://www.neopets.com/winter/snowager.phtml",
+    "symol": "https://www.neopets.com/medieval/symolhole.phtml",
+    "symolJellyneo": "https://www.jellyneo.net/?go=symolhole",
+    "igloo": "https://www.neopets.com/winter/igloo.phtml",
+    "blackPawkeet": "https://www.neopets.com/pirates/buriedtreasure/index.phtml",
+    "graveDanger": "https://www.neopets.com/halloween/gravedanger/index.phtml",
+    "calendar": "https://www.neopets.com/calendar.phtml",
+    "hubBrasil": "https://neopetsbrasil.base44.app/",
+    "hubScripts": "'ht"
+  },
+  "moduleIconConstants": {
+    "home": "https://images.neopets.com/items/plu_faerie_fyora.gif",
+    "snowager": "https://www.jellyneo.net/assets/imgs/avatars/182.gif",
+    "symol": "https://www.jellyneo.net/assets/imgs/avatars/277.gif",
+    "igloo": "https://www.jellyneo.net/assets/imgs/avatars/651.gif",
+    "annual": "https://www.jellyneo.net/assets/imgs/avatars/568.gif",
+    "calendar": "https://images.neopets.com/ncmall/fortune/pushdowns/advent-calendar-auto-gifter.png",
+    "pawkeet": "https://www.jellyneo.net/assets/imgs/avatars/192.gif",
+    "graveDanger": "",
+    "turmaculus": "https://images.neopets.com/neoboards/avatars/turmaculus.gif",
+    "kings": "https://www.jellyneo.net/assets/imgs/avatars/147.gif",
+    "wishing": "https://www.jellyneo.net/assets/imgs/avatars/401.gif",
+    "healingSprings": "https://images.neopets.com/bd2/abilities/0029_ah54yubiow_rejuvenate/thumb_29.png",
+    "tools": "https://images.neopets.com/themes/h5/basic/images/releasenotes-icon.png",
+    "links": "https://images.neopets.com/themes/h5/basic/images/treasure-icon.png",
+    "dailyLinks": "https://images.neopets.com/themes/h5/basic/images/dailies-widget/dailieswidget-icon.png",
+    "sourceCode": "https://images.neopets.com/neoboards/avatars/ava_book_cipher.gif",
+    "avatarReverse": "https://images.neopets.com/neoboards/avatars/ava_25anniversary_shoyru.gif",
+    "clickableTrophies": "https://images.neopets.com/themes/h5/basic/images/highscore-icon.png",
+    "neocola": "https://images.neopets.com/moon/neocola/cola_machine.gif",
+    "vending": "https://www.jellyneo.net/assets/imgs/avatars/75.gif",
+    "lottery": "https://images.neopets.com/neoboards/avatars/lottery.gif",
+    "bankImprovement": "https://images.neopets.com/neoboards/avatars/bankdepositavatar.gif",
+    "neomailHelper": "https://images.neopets.com/neoboards/smilies/weewoo.gif",
+    "emoticonsHelper": "https://images.neopets.com/neoboards/smilies/smiley.gif",
+    "neoboardUserLinks": "https://images.neopets.com/neoboards/smilies/winking.gif",
+    "neoboardsRecentComments": "https://images.neopets.com/themes/h5/basic/images/neoboards-icon.png",
+    "questLog": "https://images.neopets.com/neoboards/boardIcons/premiumkqb.gif",
+    "petSwitcher": "https://images.neopets.com/themes/h5/basic/images/communitycentral-icon.png",
+    "battledome": "https://images.neopets.com/images/buddy/zombom_magic.gif",
+    "training": "https://images.neopets.com/items/codestone5.gif",
+    "itemShortcuts": "https://images.neopets.com/ncmall/zoom_icon.png",
+    "albumOverview": "https://images.neopets.com/items/stamp_neo_well.gif",
+    "itemdbStampAlbum": "https://itemdb.com.br/favicon.svg",
+    "superInventory": "https://images.neopets.com/themes/h5/basic/images/v3/inventory-icon.svg",
+    "shopCodeCleaner": "https://images.neopets.com/template_images/starfish.gif",
+    "shopTillHelper": "https://images.neopets.com/premium/portal/images/shoptill-icon.png",
+    "npcShopPricer": null,
+    "inventoryPricer": "https://itemdb.com.br/logo_icon.svg",
+    "mutedWheels": "",
+    "id": "neopies-know-it-all",
+    "name": "Valentine Chia",
+    "img": "https://www.jellyneo.net/assets/imgs/avatars/89.gif",
+    "url": "https://www.neopets.com/sendgreeting.phtml?sponsearch=&greeting_id=292",
+    "desc": "Envie este Neogreeting no dia 13 ou 14 de fevereiro.",
+    "type": "range",
+    "month": "2",
+    "day": "4",
+    "startMonth": "2",
+    "startDay": "13",
+    "endMonth": "2",
+    "endDay": "14"
+  },
+  "registeredModules": [
+    {
+      "var": "symolModule",
+      "id": "symol",
+      "title": "Symol Hole",
+      "emoji": "🕳️",
+      "priority": 100,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.symol",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/277.gif"
+    },
+    {
+      "var": "snowagerModule",
+      "id": "snowager",
+      "title": "Snowager",
+      "emoji": "❄️",
+      "priority": 85,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.snowager",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/182.gif"
+    },
+    {
+      "var": "turmaculusModule",
+      "id": "turmaculus",
+      "title": "Turmaculus",
+      "emoji": "🐢",
+      "priority": 90,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.turmaculus",
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/turmaculus.gif"
+    },
+    {
+      "var": "graveDangerModule",
+      "id": "graveDanger",
+      "title": "Grave Danger Tracker",
+      "emoji": "⚰️",
+      "priority": 78,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.graveDanger",
+      "imgUrl": ""
+    },
+    {
+      "var": "annualModule",
+      "id": "annual",
+      "title": "Avatares Anuais",
+      "emoji": "🏅",
+      "priority": 80,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.annual",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/568.gif"
+    },
+    {
+      "var": "calendarModule",
+      "id": "calendar",
+      "title": "Calendário",
+      "emoji": "📅",
+      "priority": 75,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.calendar",
+      "imgUrl": "https://images.neopets.com/ncmall/fortune/pushdowns/advent-calendar-auto-gifter.png"
+    },
+    {
+      "var": "iglooModule",
+      "id": "igloo",
+      "title": "Igloo Garage Sale",
+      "emoji": "🧊",
+      "priority": 65,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.igloo",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/651.gif"
+    },
+    {
+      "var": "blackPawkeetModule",
+      "id": "pawkeet",
+      "title": "Black Pawkeet",
+      "emoji": "🏴‍☠️",
+      "priority": 75,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.pawkeet",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/192.gif"
+    },
+    {
+      "var": "dailyLinksModule",
+      "id": "dailyLinks",
+      "title": "Links Diários",
+      "emoji": "📌",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.dailyLinks",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/dailies-widget/dailieswidget-icon.png"
+    },
+    {
+      "var": "nstLinkSchedulerModule",
+      "id": "nstLinkScheduler",
+      "title": "Agendador NST",
+      "emoji": "⏱️",
+      "priority": 60,
+      "defaultEnabled": null,
+      "imgUrl": ""
+    },
+    {
+      "var": "magmaPoolAssistantModule",
+      "id": "magmaPoolAssistant",
+      "title": "Magma Pool Assistant",
+      "emoji": "🔥",
+      "priority": 92,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/altador/altadorcup/2013/freebies/aimicons/aicon_moltara.gif"
+    },
+    {
+      "var": "cellblockHelperModule",
+      "id": "cellblockHelper",
+      "title": "Cellblock Helper",
+      "emoji": "▦",
+      "priority": 40,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/new_shopkeepers/t_222.gif"
+    },
+    {
+      "var": "neoQuestsHelperModule",
+      "id": "neoQuestsHelper",
+      "title": "NeoQuests Helper",
+      "emoji": "⚔️",
+      "priority": 42,
+      "defaultEnabled": false,
+      "imgUrl": "https://images.neopets.com/nq2/x/a2_5596a_r.gif"
+    },
+    {
+      "var": "neoMusicModule",
+      "id": "neoMusic",
+      "title": "Neo Music",
+      "emoji": "♫",
+      "priority": 40.5,
+      "defaultEnabled": null,
+      "imgUrl": ""
+    },
+    {
+      "var": "cheeserollerHelperModule",
+      "id": "cheeserollerHelper",
+      "title": "Cheeseroller Helper",
+      "emoji": "🧀",
+      "priority": 42,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/items/med_cheese_33.gif"
+    },
+    {
+      "var": "diceARooEnterShortcutModule",
+      "id": "diceARooEnterShortcut",
+      "title": "Dice-A-Roo — Atalho pelo Enter",
+      "emoji": "🎲",
+      "priority": 41,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/luckyblumaroo.gif"
+    },
+    {
+      "var": "kikoPopFixModule",
+      "id": "kikoPopFix",
+      "title": "Kiko Pop Fix",
+      "emoji": "🎯",
+      "priority": 43,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/kikopop.gif"
+    },
+    {
+      "var": "gourmetClubFinderModule",
+      "id": "gourmetClubFinder",
+      "title": "Gourmet Club Finder",
+      "emoji": "🍽️",
+      "priority": null,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/images/buddy/aim_harvest_food.gif"
+    },
+    {
+      "var": "bookReaderFinderModule",
+      "id": "bookReaderFinder",
+      "title": "Book Reader Finder",
+      "emoji": "📚",
+      "priority": null,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/questlog/images/icons/CompletedQuest.png"
+    },
+    {
+      "var": "albumOverviewModule",
+      "id": "albumOverview",
+      "title": "Visão Geral dos Álbuns",
+      "emoji": "📚",
+      "priority": null,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.albumOverview",
+      "imgUrl": "https://images.neopets.com/items/stamp_neo_well.gif"
+    },
+    {
+      "var": "itemdbStampAlbumModule",
+      "id": "itemdbStampAlbum",
+      "title": "ItemDB — Assistente de Álbuns",
+      "emoji": "📮",
+      "priority": null,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.itemdbStampAlbum",
+      "imgUrl": "https://itemdb.com.br/favicon.svg"
+    },
+    {
+      "var": "neoDeckCompanionPanelModule",
+      "id": "neoDeckCompanionPanel",
+      "title": "NeoDeck Companion",
+      "emoji": "🃏",
+      "priority": null,
+      "defaultEnabled": true,
+      "imgUrl": "https://images.neopets.com/premium/portal/images/neodeck-icon.png"
+    },
+    {
+      "var": "usefulLinksModule",
+      "id": "usefulLinks",
+      "title": "Links Úteis",
+      "emoji": "🔗",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.links",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/treasure-icon.png"
+    },
+    {
+      "var": "quickRefPetCardModule",
+      "id": "quickRefPetCard",
+      "title": "QuickRef Pet Cards",
+      "emoji": "🃏",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/v3/mypets-icon.svg"
+    },
+    {
+      "var": "autocompleteDisablerModule",
+      "id": "autocompleteDisabler",
+      "title": "Desativador de Autopreenchimento",
+      "emoji": "🚫",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": null
+    },
+    {
+      "var": "avatarReverseOrderModule",
+      "id": "avatarReverseOrder",
+      "title": "Avatares Recentes Primeiro",
+      "emoji": "🖼️",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.avatarReverse",
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/ava_25anniversary_shoyru.gif"
+    },
+    {
+      "var": "shopCodeCleanerModule",
+      "id": "shopCodeCleaner",
+      "title": "Limpador de Código da Loja",
+      "emoji": "🧽",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.shopCodeCleaner",
+      "imgUrl": "https://images.neopets.com/template_images/starfish.gif"
+    },
+    {
+      "var": "shopTillHelperModule",
+      "id": "shopTillHelper",
+      "title": "Assistente da Loja",
+      "emoji": "💰",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.shopTillHelper",
+      "imgUrl": "https://images.neopets.com/premium/portal/images/shoptill-icon.png"
+    },
+    {
+      "var": "shopBatchAutopricerModule",
+      "id": "shopBatchAutopricer",
+      "title": "Precificador em Lote — SSW",
+      "emoji": "📊",
+      "priority": 0,
+      "defaultEnabled": false,
+      "imgRef": "ICONS.shopTillHelper",
+      "imgUrl": "https://images.neopets.com/premium/portal/images/shoptill-icon.png"
+    },
+    {
+      "var": "haggleOfferCopierModule",
+      "id": "haggleOfferCopier",
+      "title": "Copiador de Oferta",
+      "emoji": "📋",
+      "priority": 0,
+      "defaultEnabled": true,
+      "imgUrl": null
+    },
+    {
+      "var": "inventoryItemDbPricerModule",
+      "id": "inventoryItemDbPricer",
+      "title": "Pricer ItemDB",
+      "emoji": "📦",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.inventoryPricer",
+      "imgUrl": "https://itemdb.com.br/logo_icon.svg"
+    },
+    {
+      "var": "galleryItemDbSorterModule",
+      "id": "galleryItemDbSorter",
+      "title": "Galeria - Categorias",
+      "emoji": "🎨",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/v3/gallery-icon.svg"
+    },
+    {
+      "var": "itemShortcutsModule",
+      "id": "itemShortcuts",
+      "title": "Atalhos de Itens",
+      "emoji": "🔎",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.itemShortcuts",
+      "imgUrl": "https://images.neopets.com/ncmall/zoom_icon.png"
+    },
+    {
+      "var": "superInventoryModule",
+      "id": "superInventory",
+      "title": "Super Inventory",
+      "emoji": "📦",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.superInventory",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/v3/inventory-icon.svg"
+    },
+    {
+      "var": "petSwitcherAssistant",
+      "id": "petSwitcher",
+      "title": "Pet Switcher",
+      "emoji": "🐾",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.petSwitcher",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/communitycentral-icon.png"
+    },
+    {
+      "var": "questLogModule",
+      "id": "questLog",
+      "title": "Quest Log Assistant",
+      "emoji": "📜",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.questLog",
+      "imgUrl": "https://images.neopets.com/neoboards/boardIcons/premiumkqb.gif"
+    },
+    {
+      "var": "questLogQuickLinksModule",
+      "id": "questLogQuickLinks",
+      "title": "Atalhos do Quest Log",
+      "emoji": "🗺️",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.questLog",
+      "imgUrl": "https://images.neopets.com/neoboards/boardIcons/premiumkqb.gif"
+    },
+    {
+      "var": "kingsModule",
+      "id": "kings",
+      "title": "Old Kings Helper",
+      "emoji": "👑",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.kings",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/147.gif"
+    },
+    {
+      "var": "wishingModule",
+      "id": "wishing",
+      "title": "Wishing Well Tracker",
+      "emoji": "💰",
+      "priority": 70,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.wishing",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/401.gif"
+    },
+    {
+      "var": "healingSpringsModule",
+      "id": "healingSprings",
+      "title": "Healing Springs",
+      "emoji": "💊",
+      "priority": 1,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.healingSprings",
+      "imgUrl": "https://images.neopets.com/bd2/abilities/0029_ah54yubiow_rejuvenate/thumb_29.png"
+    },
+    {
+      "var": "neocolaModule",
+      "id": "neocola",
+      "title": "Neocola Machine",
+      "emoji": "🥤",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.neocola",
+      "imgUrl": "https://images.neopets.com/moon/neocola/cola_machine.gif"
+    },
+    {
+      "var": "vendingModule",
+      "id": "vending",
+      "title": "Alien Aisha Vending",
+      "emoji": "👽",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.vending",
+      "imgUrl": "https://www.jellyneo.net/assets/imgs/avatars/75.gif"
+    },
+    {
+      "var": "lotteryModule",
+      "id": "lottery",
+      "title": "Neopian Lottery",
+      "emoji": "🎲",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.lottery",
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/lottery.gif"
+    },
+    {
+      "var": "mutedWheelsModule",
+      "id": "mutedWheels",
+      "title": "Rodas Silenciadas",
+      "emoji": "🔇",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.mutedWheels",
+      "imgUrl": ""
+    },
+    {
+      "var": "forgottenShoreGrayscaleModule",
+      "id": "forgottenShoreGrayscale",
+      "title": "Costa Esquecida em Cinza",
+      "emoji": "🏝️",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/forgshore.gif"
+    },
+    {
+      "var": "lunarTempleSolverModule",
+      "id": "lunarTempleSolver",
+      "title": "Solucionador do Templo Lunar",
+      "emoji": "🌙",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/aota/story/ch-1_d7de749155.jpg"
+    },
+    {
+      "var": "scratchcardsAssistantModule",
+      "id": "scratchcardsAssistant",
+      "title": "Assistente de Raspadinhas",
+      "emoji": "🎟️",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgUrl": "https://images.neopets.com/images/buddy/aim_sidney_scratchcard.gif"
+    },
+    {
+      "var": "bankImprovementModule",
+      "id": "bankImprovement",
+      "title": "Banco Melhorado",
+      "emoji": "🏦",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.bankImprovement",
+      "imgUrl": "https://images.neopets.com/neoboards/avatars/bankdepositavatar.gif"
+    },
+    {
+      "var": "neomailHelperModule",
+      "id": "neomailHelper",
+      "title": "NeoMail Archive Local",
+      "emoji": "📬",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.neomailHelper",
+      "imgUrl": "https://images.neopets.com/neoboards/smilies/weewoo.gif"
+    },
+    {
+      "var": "emoticonsHelperModule",
+      "id": "emoticonsHelper",
+      "title": "Emoticons Helper",
+      "emoji": "🗨️",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.emoticonsHelper",
+      "imgUrl": "https://images.neopets.com/neoboards/smilies/smiley.gif"
+    },
+    {
+      "var": "neoboardUserLinksModule",
+      "id": "neoboardUserLinks",
+      "title": "Atalhos de Usuário",
+      "emoji": "🔗",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.neoboardUserLinks",
+      "imgUrl": "https://images.neopets.com/neoboards/smilies/winking.gif"
+    },
+    {
+      "var": "neoboardsRecentCommentsModule",
+      "id": "neoboardsRecentComments",
+      "title": "Neoboards: Favoritos & Comentados",
+      "emoji": "💬",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.neoboardsRecentComments",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/neoboards-icon.png"
+    },
+    {
+      "var": "clickableTrophiesModule",
+      "id": "clickableTrophies",
+      "title": "Troféus Clicáveis",
+      "emoji": "🏆",
+      "priority": 0,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.clickableTrophies",
+      "imgUrl": "https://images.neopets.com/themes/h5/basic/images/highscore-icon.png"
+    },
+    {
+      "var": "trainingAssistantModule",
+      "id": "trainingAssistant",
+      "title": "Treinamento de Pets",
+      "emoji": "🏋️",
+      "priority": 80,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.training",
+      "imgUrl": "https://images.neopets.com/items/codestone5.gif"
+    },
+    {
+      "var": "battledomeTrackerModule",
+      "id": "battledomeTracker",
+      "title": "Battledome Tracker & Fav",
+      "emoji": "⚔️",
+      "priority": 35,
+      "defaultEnabled": null,
+      "imgRef": "ICONS.battledome",
+      "imgUrl": "https://images.neopets.com/images/buddy/zombom_magic.gif"
+    }
+  ],
+  "dashboardWidgets": [
+    {
+      "id": "collection-sync",
+      "title": "Sincronização de Coleções",
+      "icon": ""
+    },
+    {
+      "id": "quick-notes",
+      "title": "Bloco de Notas",
+      "icon": "ICONS.tools"
+    },
+    {
+      "id": "calendar-summary",
+      "title": "Hoje em Neopia",
+      "icon": "ICONS.calendar"
+    }
+  ],
+  "usefulLinksDefaultIcons": [
+    {
+      "id": "dress-to-impress",
+      "category": "Customizacao",
+      "name": "Dress to Impress",
+      "url": "https://impress.openneo.net/",
+      "icon": "https://impress.openneo.net/assets/favicon-97a5bb419325a3c6559f3109f2374aa5ebf6c5f282e01c0e6a58407ee3f97c77.png"
+    },
+    {
+      "id": "jellyneo-wardrobe",
+      "category": "Customizacao",
+      "name": "Jellyneo Wardrobe",
+      "url": "https://wardrobe.jellyneo.net/",
+      "icon": "https://wardrobe.jellyneo.net/favicon.ico"
+    },
+    {
+      "id": "itemdb",
+      "category": "Itens e preços",
+      "name": "itemdb - Neopets Item Database",
+      "url": "https://itemdb.com.br/pt",
+      "icon": "https://itemdb.com.br/logo_icon.png"
+    },
+    {
+      "id": "jellyneo-item-database",
+      "category": "Itens e preços",
+      "name": "Jellyneo Item Database",
+      "url": "https://items.jellyneo.net/",
+      "icon": "https://items.jellyneo.net/layout/imgs/itemdb/favicon.png"
+    },
+    {
+      "id": "jellyneo",
+      "category": "Guias gerais",
+      "name": "Jellyneo",
+      "url": "https://www.jellyneo.net/",
+      "icon": "https://www.jellyneo.net/layout/imgs/mainsite/favicon.png"
+    },
+    {
+      "id": "sunnyneo",
+      "category": "Guias gerais",
+      "name": "SunnyNeo",
+      "url": "https://sunnyneo.com/",
+      "icon": "https://sunnyneo.com/favicon.ico"
+    },
+    {
+      "id": "magnetismo-times",
+      "category": "Guias gerais",
+      "name": "Magnetismo Times",
+      "url": "https://magnetismotimes.com/",
+      "icon": "https://magnetismotimes.com/wp-content/themes/MagnetismoTheme2/img/favicon.png"
+    },
+    {
+      "id": "book-of-ages",
+      "category": "Lore e extras",
+      "name": "Book of Ages",
+      "url": "https://bookofages.jellyneo.net/",
+      "icon": "https://bookofages.jellyneo.net/favicon.ico"
+    },
+    {
+      "id": "battlepedia",
+      "category": "Lore e extras",
+      "name": "Jellyneo Battlepedia",
+      "url": "https://battlepedia.jellyneo.net/",
+      "icon": "https://battlepedia.jellyneo.net/favicon.ico"
+    },
+    {
+      "id": "dr-sloth",
+      "category": "Lore e extras",
+      "name": "Dr. Sloth",
+      "url": "https://www.drsloth.com/",
+      "icon": "https://www.drsloth.com/favicon.ico"
+    },
+    {
+      "id": "jellyneo-merch",
+      "category": "Lore e extras",
+      "name": "Jellyneo Merch",
+      "url": "https://merch.jellyneo.net/",
+      "icon": "https://merch.jellyneo.net/favicon.ico"
+    }
+  ],
+  "annualAvatarImages": [
+    {
+      "id": "evil-sloth-clone",
+      "name": "Evil Sloth Clone",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/652.gif",
+      "url": "https://www.neopets.com/space/index.phtml",
+      "desc": "Visite o Virtupets Supply Deck no dia 14 de janeiro.",
+      "type": "fixed",
+      "month": 1,
+      "day": 14
+    },
+    {
+      "id": "i-heart-sloth",
+      "name": "I *heart* Sloth",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/78.gif",
+      "url": "https://www.neopets.com/space/mindcontrollab.phtml",
+      "desc": "Complete o quiz no Sloth's Mind Control Laboratory no dia 14 de janeiro. Respostas corretas: C, D, B, C, A.",
+      "type": "fixed",
+      "month": 1,
+      "day": 14
+    },
+    {
+      "id": "evil-jhudora",
+      "name": "Evil Jhudora",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/87.gif",
+      "url": "https://www.neopets.com/faerieland/darkfaerie.phtml",
+      "desc": "Complete uma das quests da Jhudora no dia 4 de fevereiro.",
+      "type": "fixed",
+      "month": 2,
+      "day": 4
+    },
+    {
+      "id": "valentine-chia",
+      "name": "Valentine Chia",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/89.gif",
+      "url": "https://www.neopets.com/sendgreeting.phtml?sponsearch=&greeting_id=292",
+      "desc": "Envie este Neogreeting no dia 13 ou 14 de fevereiro.",
+      "type": "range",
+      "startMonth": 2,
+      "startDay": 13,
+      "endMonth": 2,
+      "endDay": 14
+    },
+    {
+      "id": "neopies-know-it-all",
+      "name": "Neopies - Know It All",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/603.gif",
+      "url": "https://www.neopets.com/neopies/",
+      "desc": "Vote em uma opção que vença a votação popular e depois retorne a página dos Neopies.",
+      "type": "seasonal",
+      "startMonth": 2,
+      "startDay": 1,
+      "endMonth": 3,
+      "endDay": 15
+    },
+    {
+      "id": "gadgadsbogen",
+      "name": "Gadgadsbogen!",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/96.gif",
+      "url": "https://www.neopets.com/neopedia.phtml?neopedia_id=176",
+      "desc": "Visite este artigo da Neopedia no dia 4 de marco.",
+      "type": "fixed",
+      "month": 3,
+      "day": 4
+    },
+    {
+      "id": "illusen-doll",
+      "name": "Illusen Doll",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/101.gif",
+      "url": "https://www.neopets.com/medieval/earthfaerie.phtml",
+      "desc": "Complete uma das quests da Illusen no dia 17 de marco.",
+      "type": "fixed",
+      "month": 3,
+      "day": 17
+    },
+    {
+      "id": "quiguki-april-fools-avatar",
+      "name": "Quiguki April Fools Avatar",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/329.gif",
+      "url": "https://www.neopets.com/nf.phtml/",
+      "desc": "Atualize a página antiga de noticias no dia 4 de abril, depois que a pegadinha de April Fools tiver sido removida.",
+      "type": "fixed",
+      "month": 4,
+      "day": 4
+    },
+    {
+      "id": "easter-cybunny",
+      "name": "Easter Cybunny",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/106.gif",
+      "url": "https://www.neopets.com/sendgreeting.phtml?sponsearch=&greeting_id=677",
+      "desc": "Envie este Neogreeting nos dias 8, 9 ou 10 de abril.",
+      "type": "range",
+      "startMonth": 4,
+      "startDay": 8,
+      "endMonth": 4,
+      "endDay": 10
+    },
+    {
+      "id": "altador-cup-terror-mountain",
+      "name": "Altador Cup - Terror Mountain",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/537.gif",
+      "url": "https://www.jellyneo.net/?go=altador_cup",
+      "desc": "Entre no Time Terror Mountain na Altador Cup e alcance Rank 1. Avatar anual de time; em 2026 a Press Tour começa em 22/06, mas a janela real dos avatares depende da abertura oficial das atividades.",
+      "type": "altadorCupSeason"
+    },
+    {
+      "id": "altador-cup-staff-tournament",
+      "name": "Altador Cup Staff Tournament",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/402.gif",
+      "url": "https://www.neopets.com/altador/colosseum/staff/",
+      "desc": "Envie um voto no torneio anual TNT AC Staff Tournament durante a Altador Cup. Em 2026, trate como evento de data variável ligado à abertura oficial da Copa.",
+      "type": "altadorCupSeason"
+    },
+    {
+      "id": "altador-cup-player",
+      "name": "Altador Cup Player",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/384.gif",
+      "url": "https://www.neopets.com/altador/colosseum/ctp.phtml?game_id=1405",
+      "desc": "Alcance Rank 1 na Altador Cup anual e visite uma das páginas de jogos. Em 2026, a Press Tour começa em 22/06 e a janela dos avatares deve ser confirmada durante o evento.",
+      "type": "altadorCupSeason"
+    },
+    {
+      "id": "shrine-of-coltzan",
+      "name": "Shrine of Coltzan",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/590.gif",
+      "url": "https://www.neopets.com/desert/shrine.phtml",
+      "desc": "Visite o Santuario de Coltzan no dia 9 de julho.",
+      "type": "fixed",
+      "month": 7,
+      "day": 9
+    },
+    {
+      "id": "blumaroo-chef-bonju",
+      "name": "Blumaroo - Chef Bonju",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/392.gif",
+      "url": "https://www.neopets.com/island/cookingpot.phtml",
+      "desc": "Durante o mês de agosto, use o avatar Mad About Orange como avatar ativo e misture Blumaroo Steak, Gourmet Cooking For Your Pet e Orange Juice no Mystery Island Cooking Pot.",
+      "type": "month",
+      "month": 8
+    },
+    {
+      "id": "illusen-vs-jhudora",
+      "name": "Illusen vs Jhudora",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/578.gif",
+      "url": "https://www.neopets.com/quests.phtml",
+      "desc": "Visite a página de Faerie Quest todos os dias durante o Faerie Festival.",
+      "type": "seasonal",
+      "startMonth": 9,
+      "startDay": 15,
+      "endMonth": 10,
+      "endDay": 31
+    },
+    {
+      "id": "esophagor-feed-meeee",
+      "name": "Esophagor - Feed Meeee",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/638.gif",
+      "url": "https://www.neopets.com/halloween/esophagor.phtml",
+      "desc": "Complete 13 quests no total para o Esophagor durante o evento anual Festival of Fears.",
+      "type": "seasonal",
+      "startMonth": 10,
+      "startDay": 1,
+      "endMonth": 10,
+      "endDay": 31
+    },
+    {
+      "id": "trick-or-treat-2023",
+      "name": "Trick or Treat 2023",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/581.gif",
+      "url": "https://www.jellyneo.net/?go=festival_of_fears",
+      "desc": "Colete todas as 7 Trick-or-Treat Bags até 31 de outubro, ou leia todas as historias das 7 bags quando essa forma estiver disponível no Festival of Fears.",
+      "type": "seasonal",
+      "startMonth": 10,
+      "startDay": 1,
+      "endMonth": 10,
+      "endDay": 31
+    },
+    {
+      "id": "happy-birthday",
+      "name": "Happy Birthday!",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/282.gif",
+      "url": "https://www.neopets.com/nf.phtml/",
+      "desc": "Visite a página New Features no dia 15 de novembro.",
+      "type": "fixed",
+      "month": 11,
+      "day": 15
+    },
+    {
+      "id": "presents-from-pandora",
+      "name": "Presents from Pandora",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/598.gif",
+      "url": "https://www.neopets.com/np25birthday/",
+      "desc": "Caia no espaco de avatar da Wheel of Celebration durante evento de aniversario/celebracao quando disponível.",
+      "type": "seasonal",
+      "startMonth": 11,
+      "startDay": 1,
+      "endMonth": 11,
+      "endDay": 30
+    },
+    {
+      "id": "plastic-fir",
+      "name": "Plastic Fir",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/180.gif",
+      "url": "https://www.neopets.com/winter/adventcalendar.phtml",
+      "desc": "Colete o prêmio do Advent Calendar no dia 1o de dezembro.",
+      "type": "fixed",
+      "month": 12,
+      "day": 1
+    },
+    {
+      "id": "seasonal-attack-pea",
+      "name": "Seasonal Attack Pea",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/68.gif",
+      "url": "https://www.neopets.com/winter/adventcalendar.phtml",
+      "desc": "Lançado em um dia aleatório de dezembro pelo Advent Calendar. E preciso coletar o prêmio no dia certo para receber o avatar.",
+      "type": "month",
+      "month": 12
+    },
+    {
+      "id": "cup-o-borovan",
+      "name": "Cup O' Borovan",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/648.gif",
+      "url": "https://www.neopets.com/nf.phtml",
+      "desc": "Acesse a página New Features no dia 20 de dezembro.",
+      "type": "fixed",
+      "month": 12,
+      "day": 20
+    },
+    {
+      "id": "borovan-dipped",
+      "name": "Borovan Dipped",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/568.gif",
+      "url": "https://items.jellyneo.net/search/all-food/?name=borovan&sort=5",
+      "desc": "Alimente seu Neopet com um item que tenha 'borovan' no nome no dia 20 de dezembro. Grarrls e Skeiths podem comer itens que não sejam comida, entao talvez exista uma opção mais barata.",
+      "type": "fixed",
+      "month": 12,
+      "day": 20
+    },
+    {
+      "id": "christmas-aisha",
+      "name": "Christmas Aisha",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/569.gif",
+      "url": "https://www.neopets.com/winter/adventcalendar.phtml",
+      "desc": "Colete o prêmio do Advent Calendar no dia 25 de dezembro.",
+      "type": "fixed",
+      "month": 12,
+      "day": 25
+    },
+    {
+      "id": "neopian-times-writer",
+      "name": "Neopian Times Writer",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/253.gif",
+      "url": "https://www.jellyneo.net/?go=neopian_times",
+      "desc": "Concedido a usuários publicados em edicoes especiais do Neopian Times, como edicoes 25, 50, 75 ou 100, conforme as regras atuais.",
+      "type": "special"
+    },
+    {
+      "id": "caption-contest-funny",
+      "name": "Caption Contest - Funny",
+      "img": "https://www.jellyneo.net/assets/imgs/avatars/108.gif",
+      "url": "https://www.neopets.com/games/new_caption.phtml",
+      "desc": "Concedido as 25 melhores legendas em cada 10a rodada do Caption Contest, a partir do concurso #1400.",
+      "type": "special"
+    }
+  ],
+  "calendarEventTypeEmojis": [],
+  "securityLevelEmojis": [],
+  "notes": [
+    "registeredModules vem da lista MODULES atual.",
+    "imgRef indica dependência de moduleIconConstants ou visualIcons.",
+    "imgUrl vazio/null significa que o módulo não tem imagem dedicada no script atual."
+  ]
+}
